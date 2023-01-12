@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>Let's Chat!</title>
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<!-- TODO: add lock icon -->
+				<span>100%</span>
+				<i class="fas fa-battery-full"></i>
+				<i class="fas fa-bolt"></i>
+			</div>
+		</div>
+
+		<header class="welcome-header">
+			<h1 class="welcome-header__title">Let's Chat!</h1>
+			<p class="welcome-header__text">
+				If you have an Account,<br />log in with your email or phone number
+			</p>
+		</header>
+
+		<form class="login-form" action="friends.html" method="get">
+			<input
+				type="text"
+				name="userId"
+				class="login-form__input"
+				placeholder="Email or phone number"
+			/>
+			<input
+				type="password"
+				name="password"
+				class="login-form__input"
+				placeholder="Password"
+			/>
+			<input type="submit" class="login-form__btn" value="Log In" />
+			<a href="" class="login-form__link">Find Account or Password</a>
+		</form>
+
+		<script
+			src="https://kit.fontawesome.com/6478f529f2.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
