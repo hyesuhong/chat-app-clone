@@ -1,0 +1,37 @@
+#friends-display-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+	background: #f9f9f9;
+	color: #333;
+	font-size: 14px;
+}
+
+#friends-display-link > i {
+	color: #ccc;
+}
+#friends-display-link > i:first-child {
+	margin-right: 5px;
+}
+#friends-display-link > i:last-child {
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.friends-screen {
+	padding: 0 var(--hr-space);
+}
+
+.friends-screen__channel {
+	padding: 10px 0;
+	border-top: 1px solid #eee;
+}
+
+.friends-screen__channel-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	color: #ccc;
+}

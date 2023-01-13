@@ -14,6 +14,24 @@
 	align-items: center;
 }
 
-.nav_link {
+.nav__link {
+	position: relative;
 	color: #333;
+	font-size: 20px;
+}
+
+.nav__noti {
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translate(50%, -50%);
+	width: 18px;
+	height: 18px;
+	border-radius: 100%;
+	background: tomato;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
 }
