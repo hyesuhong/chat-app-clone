@@ -11,9 +11,17 @@
 }
 
 .user-component__column:last-child {
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
 	font-size: 14px;
-	color: #ccc;
+	color: var(--grey);
 }
+
+.user-component__column:last-child > *:not(:last-child) {
+	margin-bottom: 5px;
+}
+
 .user-component__column:last-child i {
 	margin-left: 5px;
 }
@@ -57,5 +65,5 @@
 .user-component__desc {
 	font-size: 14px;
 	margin-top: 3px;
-	color: #ccc;
+	color: var(--grey);
 }

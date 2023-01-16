@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>Chat</title>
+	</head>
+	<body id="chat-screen">
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<!-- TODO: add lock icon -->
+				<span>100%</span>
+				<i class="fas fa-battery-full"></i>
+				<i class="fas fa-bolt"></i>
+			</div>
+		</div>
+
+		<header class="alt-header">
+			<div class="alt-header__column">
+				<a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+			</div>
+			<div class="alt-header__column">
+				<h1 class="alt-header__title">Ssu</h1>
+			</div>
+			<div class="alt-header__column">
+				<i class="fas fa-search fa-lg"></i>
+				<i class="fas fa-bars fa-lg"></i>
+			</div>
+		</header>
+
+		<main class="main-screen main-chat">
+			<div class="chat__timestamp"><span>Tuesday, January 16, 2023</span></div>
+
+			<div class="message-row">
+				<div class="message-row__profile">
+					<img
+						src="https://static-cse.canva.com/blob/980893/1600w-vkBvE1d_xYA.jpg"
+						alt=""
+					/>
+				</div>
+				<div class="message-row__content">
+					<p class="message__author">Ssu</p>
+					<div class="message__text">
+						<span class="message__bubble">Hi!</span>
+						<span class="message__time">21:27</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="message-row message-row--me">
+				<div class="message-row__content">
+					<div class="message__text">
+						<span class="message__bubble">What's up?</span>
+						<span class="message__time">21:29</span>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<form action="" class="reply">
+			<div class="reply__column">
+				<i class="far fa-plus-square"></i>
+			</div>
+			<div class="reply__column">
+				<input type="text" placeholder="Write a message" />
+				<i class="far fa-smile"></i>
+				<button>
+					<i class="fas fa-arrow-up"></i>
+				</button>
+			</div>
+		</form>
+
+		<script
+			src="https://kit.fontawesome.com/6478f529f2.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

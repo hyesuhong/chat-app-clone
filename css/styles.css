@@ -6,12 +6,47 @@
 @import 'components/status-bar.css';
 @import 'components/nav-bar.css';
 @import 'components/screen-header.css';
+@import 'components/alt-screen-header.css';
 @import 'components/user-component.css';
+@import 'components/badge.css';
+@import 'components/icon-row.css';
 
 /* Screens */
 @import 'screens/login.css';
 @import 'screens/friends.css';
+@import 'screens/search.css';
+@import 'screens/more.css';
+@import 'screens/settings.css';
+@import 'screens/chat.css';
 
 body {
 	font-family: 'Sofia Sans', sans-serif;
+}
+
+.main-screen {
+	padding: 0 var(--hr-space);
+}
+
+@media screen and (min-width: 640px) {
+	body::before {
+		content: 'Your screen is toooooo big';
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 24px;
+		font-weight: 500;
+		z-index: 101;
+	}
+
+	body::after {
+		content: '';
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: var(--purple);
+		z-index: 100;
+	}
 }

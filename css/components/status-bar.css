@@ -1,4 +1,6 @@
 .status-bar {
+	position: sticky;
+	top: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -6,10 +8,15 @@
 }
 
 .status-bar__column {
+	width: 33%;
 	font-size: 10px;
 }
 .status-bar__column:nth-child(2) {
 	margin: auto;
+	text-align: center;
+}
+.status-bar__column:last-child {
+	text-align: right;
 }
 
 .status-bar__column i {

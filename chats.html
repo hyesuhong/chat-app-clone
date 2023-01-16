@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./css/styles.css" />
-		<title>Friends</title>
+		<title>Chat</title>
 	</head>
 	<body>
 		<div class="status-bar">
@@ -25,10 +25,13 @@
 		</div>
 
 		<header class="screen-header">
-			<h1 class="screen-header__title">Friends</h1>
+			<h1 class="screen-header__title">Chats</h1>
 			<div class="screen-header__icons">
 				<span class="screen-header__icon">
 					<i class="fas fa-search fa-lg"></i>
+				</span>
+				<span class="screen-header__icon">
+					<i class="far fa-comment-dots fa-lg"></i>
 				</span>
 				<span class="screen-header__icon">
 					<i class="fas fa-music fa-lg"></i>
@@ -39,65 +42,42 @@
 			</div>
 		</header>
 
-		<a href="#" id="friends-display-link">
-			<i class="fas fa-info-circle"></i>
-			Friends' Names Display
-			<i class="fas fa-chevron-right"></i>
-		</a>
-
 		<main class="main-screen">
-			<div class="user-component">
-				<div class="user-component__column">
-					<div class="user-component__avatar user-component__avatar--lg">
-						<img
-							src="https://static-cse.canva.com/blob/980893/1600w-vkBvE1d_xYA.jpg"
-							alt=""
-						/>
-					</div>
-					<div class="user-component__text">
-						<h4 class="user-component__name">Ssu</h4>
-						<!-- <p class="user-component__desc">Please check My Kakao Account info</p> -->
-					</div>
-				</div>
-				<div class="user-component__column"></div>
-			</div>
-			<div class="friends-screen__channel">
-				<div class="friends-screen__channel-header">
-					<span>Channel</span>
-					<i class="fas fa-chevron-up"></i>
-				</div>
+			<a href="chat.html">
 				<div class="user-component">
 					<div class="user-component__column">
-						<div class="user-component__avatar user-component__avatar-sm">
+						<div class="user-component__avatar">
 							<img
-								src="https://t1.daumcdn.net/crms/symbol_img/symbol_카카오톡.png"
+								src="https://static-cse.canva.com/blob/980893/1600w-vkBvE1d_xYA.jpg"
 								alt=""
 							/>
 						</div>
 						<div class="user-component__text">
-							<h4 class="user-component__name user-component__name-not-bold">
-								Channel
-							</h4>
+							<h4 class="user-component__name">Ssu</h4>
+							<p class="user-component__desc">
+								Please check My Kakao Account info
+							</p>
 						</div>
 					</div>
 					<div class="user-component__column">
-						<span>2 <i class="fas fa-chevron-right"></i></span>
+						<span>21:22</span>
+						<span class="badge">1</span>
 					</div>
 				</div>
-			</div>
+			</a>
 		</main>
 
 		<nav class="nav">
 			<ul class="nav__list">
 				<li class="nav__btn">
 					<a class="nav__link" href="friends.html">
-						<i class="fas fa-user fa-lg"></i>
+						<i class="far fa-user fa-lg"></i>
 					</a>
 				</li>
 				<li class="nav__btn">
 					<a class="nav__link" href="chats.html">
 						<span class="nav__noti badge">1</span>
-						<i class="far fa-comment fa-lg"></i>
+						<i class="fas fa-comment fa-lg"></i>
 					</a>
 				</li>
 				<li class="nav__btn">
@@ -112,10 +92,6 @@
 				</li>
 			</ul>
 		</nav>
-
-		<div id="splash-screen">
-			<i class="fas fa-comment fa-lg"></i>
-		</div>
 
 		<script
 			src="https://kit.fontawesome.com/6478f529f2.js"

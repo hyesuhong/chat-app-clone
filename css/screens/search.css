@@ -1,0 +1,163 @@
+.recomm-friends {
+	border-top: var(--main-border);
+	border-bottom: var(--main-border);
+	padding: 20px 0;
+	color: var(--grey);
+}
+
+.recomm-friends__title {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.recomm-friends > p {
+	margin: 100px 0;
+	font-size: 16px;
+	text-align: center;
+}
+
+.open-chat {
+	padding: 20px 0;
+}
+
+.open-chat__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: var(--grey);
+}
+
+.open-chat__title {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.open-chat__link {
+	opacity: 0.6;
+}
+
+.open-post {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: var(--main-border);
+}
+
+.open-post:last-child {
+	border-bottom: none;
+}
+
+.open-post__column:first-child {
+	flex: 1;
+	min-width: 0;
+}
+
+.open-post__column:last-child {
+	flex: 0 0 100px;
+	margin-left: 20px;
+}
+
+.open-post__title {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.open-post__tags {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: var(--grey);
+	margin: 5px 0;
+}
+
+.open-post__members {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: var(--grey);
+}
+
+.open-post__host {
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-right: 5px;
+}
+
+.open-post__host > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.open-post__count::after {
+	content: ' members';
+}
+
+.open-post__divider {
+	width: 1px;
+	height: 10px;
+	background-color: var(--grey);
+	margin: 0 5px;
+}
+
+.open-post__status {
+	color: var(--purple);
+}
+
+.open-post__thumbnail {
+	position: relative;
+	height: 100px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.open-post__thumbnail > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.open-post__heart-count {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	display: flex;
+	align-items: center;
+	height: 20px;
+	padding: 0 5px;
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-size: 10px;
+}
+
+.open-post__heart-count > span {
+	margin-left: 5px;
+}
+
+.open-post__thumbnail:hover .open-post__heart-count i {
+	animation: bounceHeart 1s infinite ease-in-out;
+	will-change: transform;
+}
+
+@keyframes bounceHeart {
+	0% {
+		color: #fff;
+		transform: scale(1);
+	}
+	50% {
+		color: tomato;
+		transform: scale(1.2);
+	}
+	100% {
+		color: #fff;
+		transform: scale(1);
+	}
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>Settings</title>
+	</head>
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<i class="fas fa-wifi"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<!-- TODO: add lock icon -->
+				<span>100%</span>
+				<i class="fas fa-battery-full"></i>
+				<i class="fas fa-bolt"></i>
+			</div>
+		</div>
+
+		<header class="alt-header">
+			<div class="alt-header__column">
+				<a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a>
+			</div>
+			<div class="alt-header__column">
+				<h1 class="alt-header__title">Settings</h1>
+			</div>
+			<div class="alt-header__column">
+				<i class="fas fa-search fa-lg"></i>
+			</div>
+		</header>
+
+		<main class="main-screen">
+			<ul class="settings-list">
+				<li class="settings-setting">
+					<span class="settings-setting__icon">
+						<i class="fas fa-bullhorn"></i>
+					</span>
+					<span class="settings-setting__name">Notice</span>
+				</li>
+				<li class="settings-setting">
+					<span class="settings-setting__icon">
+						<i class="fas fa-flask"></i>
+					</span>
+					<span class="settings-setting__name">Lab</span>
+				</li>
+				<li class="settings-setting">
+					<span class="settings-setting__icon">
+						<i class="fas fa-exclamation-circle"></i>
+					</span>
+					<span class="settings-setting__name">Version</span>
+					<span class="settings-setting__info">Latest Version</span>
+				</li>
+			</ul>
+			<ul class="settings-list">
+				<li class="settings-setting">
+					<span class="settings-setting__icon">
+						<i class="fas fa-lock"></i>
+					</span>
+					<span class="settings-setting__name">Privacy</span>
+				</li>
+				<li class="settings-setting">
+					<span class="settings-setting__icon">
+						<i class="fas fa-bell"></i>
+					</span>
+					<span class="settings-setting__name">Notifications</span>
+				</li>
+				<li class="settings-setting">
+					<span class="settings-setting__icon">
+						<i class="far fa-user"></i>
+					</span>
+					<span class="settings-setting__name">Friends</span>
+				</li>
+				<li class="settings-setting">
+					<span class="settings-setting__icon">
+						<i class="far fa-comment"></i>
+					</span>
+					<span class="settings-setting__name">Chats</span>
+				</li>
+				<li class="settings-setting">
+					<span class="settings-setting__icon">
+						<i class="fas fa-brush"></i>
+					</span>
+					<span class="settings-setting__name">Themes</span>
+					<span class="settings-setting__new badge">N</span>
+					<span class="settings-setting__info">Default theme</span>
+				</li>
+			</ul>
+		</main>
+
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__btn">
+					<a class="nav__link" href="friends.html">
+						<i class="far fa-user fa-lg"></i>
+					</a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="chats.html">
+						<span class="nav__noti badge">1</span>
+						<i class="far fa-comment fa-lg"></i>
+					</a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="search.html"
+						><i class="far fa-search fa-lg"></i
+					></a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="more.html">
+						<i class="far fa-ellipsis-h fa-lg"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<script
+			src="https://kit.fontawesome.com/6478f529f2.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
