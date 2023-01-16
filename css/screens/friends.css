@@ -3,8 +3,8 @@
 	justify-content: center;
 	align-items: center;
 	padding: 10px 0;
-	background: #f9f9f9;
-	color: #333;
+	background: rgba(0, 0, 0, 0.2);
+	color: var(--text-color);
 	font-size: 14px;
 }
 
@@ -44,8 +44,8 @@
 	align-items: center;
 
 	font-size: 100px;
-	color: #333;
-	background: gold;
+	color: var(--text-color);
+	background: var(--purple);
 
 	animation: fadeOut 1s 1s forwards;
 }

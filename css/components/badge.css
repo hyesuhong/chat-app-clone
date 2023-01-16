@@ -2,7 +2,7 @@
 	width: 18px;
 	height: 18px;
 	border-radius: 100%;
-	background: tomato;
+	background: var(--purple);
 	font-size: 12px;
 	display: flex;
 	align-items: center;

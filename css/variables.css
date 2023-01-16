@@ -1,6 +1,10 @@
 :root {
+	--bg-color: #333;
+	--text-color: #f2f2f2;
+	--green: #76d467;
+	--lavender: #d4caff;
 	--purple: #7e5eff;
 	--hr-space: 20px;
-	--main-border: 1px solid #eee;
+	--main-border: 1px solid #666;
 	--grey: #ccc;
 }

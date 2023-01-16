@@ -3,9 +3,10 @@
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	background: #f9f9f9;
-	border-top: var(--main-border);
+	background: rgba(0, 0, 0, 0.2);
+	border-top: 1px solid var(--grey);
 	padding: 15px 30px;
+	color: var(--text-color);
 }
 
 .nav__list {
@@ -46,7 +47,6 @@
 
 .nav__link {
 	position: relative;
-	color: #333;
 	font-size: 20px;
 }
 

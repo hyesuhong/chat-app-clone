@@ -21,6 +21,8 @@
 
 body {
 	font-family: 'Sofia Sans', sans-serif;
+	background: var(--bg-color);
+	color: var(--text-color);
 }
 
 .main-screen {

@@ -26,15 +26,16 @@
 
 .login-form__input {
 	padding: 10px 0;
+	background: transparent;
 	border: none;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid var(--grey);
 	margin-bottom: 5px;
 	font-size: 16px;
 	transition: border-bottom-color 0.3s;
 }
 
 .login-form__input::placeholder {
-	color: #ccc;
+	color: var(--grey);
 }
 
 .login-form__input:focus {
@@ -54,7 +55,7 @@
 }
 
 .login-form__btn:hover {
-	color: #fff;
+	color: var(--text-color);
 	background: var(--purple);
 }
 

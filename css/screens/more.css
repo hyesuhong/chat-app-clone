@@ -32,8 +32,8 @@
 	width: 50px;
 	height: 50px;
 	border-radius: 5px;
-	background: gold;
-	color: #fff;
+	background: var(--purple);
+	color: var(--text-color);
 	font-size: 24px;
 }
 

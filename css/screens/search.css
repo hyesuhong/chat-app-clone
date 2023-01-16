@@ -108,7 +108,7 @@
 }
 
 .open-post__status {
-	color: var(--purple);
+	color: var(--lavender);
 }
 
 .open-post__thumbnail {
@@ -134,7 +134,7 @@
 	padding: 0 5px;
 	border-radius: 20px;
 	background: rgba(0, 0, 0, 0.5);
-	color: #fff;
+	color: var(--text-color);
 	font-size: 10px;
 }
 
@@ -149,15 +149,15 @@
 
 @keyframes bounceHeart {
 	0% {
-		color: #fff;
+		color: var(--text-color);
 		transform: scale(1);
 	}
 	50% {
-		color: tomato;
+		color: var(--green);
 		transform: scale(1.2);
 	}
 	100% {
-		color: #fff;
+		color: var(--text-color);
 		transform: scale(1);
 	}
 }
